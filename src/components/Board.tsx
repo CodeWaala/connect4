@@ -9,9 +9,9 @@ import { resetGame } from '../actions/resetGame';
 import { Color, ButtonColor } from "../types";
 import { Button } from "./Button";
 import { updateScoreBoard } from "../actions/updateScoreBoard";
-import { ScoreBoard } from "./ScoreBoard";
+import { ScoreBoardComponent } from "./ScoreBoard";
 
-interface Props {
+export interface Props {
   board: ReturnType<typeof getBoard>;
   color: ReturnType<typeof getCurrentPlayer>;
   winner: ReturnType<typeof getWinner>;
@@ -89,7 +89,7 @@ export class BoardComponent extends React.Component<Props> {
           <Button id={'gameButton'} text={text} onClick={resetGame} color={color} />
         </div>
         <p>
-          <ScoreBoard scores={scoreBoard} />
+          <ScoreBoardComponent scores={scoreBoard} />
         </p>
       </>
     );

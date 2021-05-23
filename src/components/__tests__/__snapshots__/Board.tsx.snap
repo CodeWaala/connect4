@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board component renders correctly enzyme 1`] = `
+<Fragment>
+  <h2>
+    It's 
+    red
+    's turn to play
+  </h2>
+  <div
+    className="Game"
+  >
+    <div
+      className="Game-Board"
+    >
+      <Row
+        colors={
+          Array [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+          ]
+        }
+        dropCoin={[Function]}
+        key="column-0"
+        row={0}
+        winner={null}
+      />
+      <Row
+        colors={
+          Array [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+          ]
+        }
+        dropCoin={[Function]}
+        key="column-1"
+        row={1}
+        winner={null}
+      />
+      <Row
+        colors={
+          Array [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+          ]
+        }
+        dropCoin={[Function]}
+        key="column-2"
+        row={2}
+        winner={null}
+      />
+      <Row
+        colors={
+          Array [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+          ]
+        }
+        dropCoin={[Function]}
+        key="column-3"
+        row={3}
+        winner={null}
+      />
+      <Row
+        colors={
+          Array [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+          ]
+        }
+        dropCoin={[Function]}
+        key="column-4"
+        row={4}
+        winner={null}
+      />
+      <Row
+        colors={
+          Array [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+          ]
+        }
+        dropCoin={[Function]}
+        key="column-5"
+        row={5}
+        winner={null}
+      />
+    </div>
+  </div>
+  <div>
+    <Button
+      color="red"
+      id="gameButton"
+      onClick={[MockFunction]}
+      text="start over"
+    />
+  </div>
+  <p>
+    <ScoreBoardComponent
+      scores={
+        Object {
+          "red": 0,
+          "yellow": 0,
+        }
+      }
+    />
+  </p>
+</Fragment>
+`;
+
+exports[`Board component renders correctly initial state 1`] = `
+<Fragment>
+  <h2>
+    It's 
+    red
+    's turn to play
+  </h2>
+  <div
+    className="Game"
+  >
+    <div
+      className="Game-Board"
+    >
+      <Row
+        colors={
+          Array [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+          ]
+        }
+        dropCoin={[Function]}
+        key="column-0"
+        row={0}
+        winner={null}
+      />
+      <Row
+        colors={
+          Array [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+          ]
+        }
+        dropCoin={[Function]}
+        key="column-1"
+        row={1}
+        winner={null}
+      />
+      <Row
+        colors={
+          Array [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+          ]
+        }
+        dropCoin={[Function]}
+        key="column-2"
+        row={2}
+        winner={null}
+      />
+      <Row
+        colors={
+          Array [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+          ]
+        }
+        dropCoin={[Function]}
+        key="column-3"
+        row={3}
+        winner={null}
+      />
+      <Row
+        colors={
+          Array [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+          ]
+        }
+        dropCoin={[Function]}
+        key="column-4"
+        row={4}
+        winner={null}
+      />
+      <Row
+        colors={
+          Array [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+          ]
+        }
+        dropCoin={[Function]}
+        key="column-5"
+        row={5}
+        winner={null}
+      />
+    </div>
+  </div>
+  <div>
+    <Button
+      color="red"
+      id="gameButton"
+      onClick={[MockFunction]}
+      text="start over"
+    />
+  </div>
+  <p>
+    <ScoreBoardComponent
+      scores={
+        Object {
+          "red": 0,
+          "yellow": 0,
+        }
+      }
+    />
+  </p>
+</Fragment>
+`;
