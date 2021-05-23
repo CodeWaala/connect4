@@ -67,3 +67,46 @@
     transform: rotateY(180deg);
   }
 }
+
+
+/**
+ * Button style.
+*/
+
+.Game-button {
+   border-radius: 3px;
+   margin: 10px;
+   padding: 4px;
+   color: #fff;
+}
+
+.Game-button.red {
+  background-color: red;
+}
+
+.Game-button.green {
+  background-color: green;
+}
+
+/* ScoreBoard Style */
+
+.Game-ScoreBoard {
+  display: flex;
+  justify-content: center;
+}
+
+.Game-ScoreBoard table td,
+.Game-ScoreBoard table th
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 100px;
+}
+
+.Game-ScoreBoard table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: darkgray;
+  color: white;
+}
