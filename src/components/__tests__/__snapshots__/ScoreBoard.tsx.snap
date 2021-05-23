@@ -137,3 +137,32 @@ exports[`Board component renders correctly initial state 1`] = `
   </div>
 </Fragment>
 `;
+
+exports[`ScoreBoard component renders correctly initial state 1`] = `
+<div
+  className="Game-ScoreBoard"
+>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Red
+        </th>
+        <th>
+          Yellow
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          0
+        </td>
+        <td>
+          1
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

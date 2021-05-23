@@ -34,7 +34,7 @@ export class BoardComponent extends React.Component<Props> {
   displayHeader() {
     // only display the winner if there is one
     if (this.props.winner) {
-      return <h2>Congratulations, {this.props.winner.color} wins the game!</h2>;
+      return <h2 id="winnerGreeting">Congratulations, {this.props.winner.color} wins the game!</h2>;
     } else {
       return <h2>It's {this.props.color}'s turn to play</h2>;
     }
@@ -88,9 +88,9 @@ export class BoardComponent extends React.Component<Props> {
         <div>
           <Button id={'gameButton'} text={text} onClick={resetGame} color={color} />
         </div>
-        <p>
+        <div>
           <ScoreBoardComponent scores={scoreBoard} />
-        </p>
+        </div>
       </>
     );
   }

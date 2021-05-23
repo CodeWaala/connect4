@@ -2,7 +2,7 @@ import React from 'react';
 import cn from "classnames";
 import { ScoreBoard as Scores } from '../reducers/game/scoreBoard';
 
-interface Props {
+export interface Props {
     scores: Scores;
 }
 export const ScoreBoardComponent: React.StatelessComponent<Props> = ({
